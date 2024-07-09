@@ -13,13 +13,7 @@ const googleAuthRouter = require('./routes/googleAuth')
 var multer = require('multer')
 const fileUpload = require("express-fileupload");
 
-// const session = require("express-session");
-// const passport = require("passport");
-// const OAuth2Strategy = require("passport-google-oauth2").Strategy;
-// const {googleLogin} = require("./model/userModel")
-// const clientid =
-//   "605780761256-f5r78mdnrt7hfgnre9o0mgnocscn4no7.apps.googleusercontent.com";
-// const clientsecret = "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";
+
 
 var app = express();
 // app.use(cors());
